@@ -1,0 +1,16 @@
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\I & O PUT inNet\bin\Debug\net5.0\I & O PUT inNet.exe
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\I & O PUT inNet\bin\Debug\net5.0\I & O PUT inNet.deps.json
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\I & O PUT inNet\bin\Debug\net5.0\I & O PUT inNet.runtimeconfig.json
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\I & O PUT inNet\bin\Debug\net5.0\I & O PUT inNet.runtimeconfig.dev.json
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\I & O PUT inNet\bin\Debug\net5.0\I & O PUT inNet.dll
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\I & O PUT inNet\bin\Debug\net5.0\ref\I & O PUT inNet.dll
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\I & O PUT inNet\bin\Debug\net5.0\I & O PUT inNet.pdb
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\I & O PUT inNet\obj\Debug\net5.0\I & O PUT inNet.csprojAssemblyReference.cache
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\I & O PUT inNet\obj\Debug\net5.0\I & O PUT inNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\I & O PUT inNet\obj\Debug\net5.0\I & O PUT inNet.AssemblyInfoInputs.cache
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\I & O PUT inNet\obj\Debug\net5.0\I & O PUT inNet.AssemblyInfo.cs
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\I & O PUT inNet\obj\Debug\net5.0\I & O PUT inNet.csproj.CoreCompileInputs.cache
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\I & O PUT inNet\obj\Debug\net5.0\I & O PUT inNet.dll
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\I & O PUT inNet\obj\Debug\net5.0\ref\I & O PUT inNet.dll
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\I & O PUT inNet\obj\Debug\net5.0\I & O PUT inNet.pdb
+C:\Users\Fáusio\OneDrive\Documents\Estudos\.NET\I & O PUT inNet\obj\Debug\net5.0\I & O PUT inNet.genruntimeconfig.cache
