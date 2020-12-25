@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System; 
+using I___O_PUT_inNet.models;
 
 namespace I___O_PUT_inNet
 {
@@ -6,7 +7,7 @@ namespace I___O_PUT_inNet
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+           read_txt_file.ReadTxtFile();
         }
     }
 }
