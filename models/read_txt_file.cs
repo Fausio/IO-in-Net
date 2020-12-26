@@ -5,17 +5,43 @@ namespace I___O_PUT_inNet.models
 {
     public static class read_txt_file
     {
-        // full path here
+
 
         public static void ReadTxtFile()
         {
-              string current_dir = Environment.CurrentDirectory;
+            string current_dir = Environment.CurrentDirectory; // get full path
 
-            // ...//...file.txt
-              string path = Path.Combine(current_dir, "Files/myfile.txt");
+            string path = Path.Combine(current_dir, "Files/myfile.txt"); //Get the ..file.txt
 
-            string[] lines = File.ReadAllLines(path);
+            string[] lines = File.ReadAllLines(path);         // read all lines
             System.Console.WriteLine(string.Join(Environment.NewLine, lines));
         }
+
+        private static int added = 0;
+        public static void MaketxtFile()
+        {
+            string path = "./Files/created";
+
+            try
+            {
+                if (File.Exists(path))
+                {
+                    added++;
+                    // open and write some lines
+                    File.AppendAllLines(path, new[] { "addenum" + added });
+                }
+                else
+                {
+                    File.WriteAllLines(path, new[] { "1 First line", "2 Secund line", "3 others line", "" });
+                }
+            }
+            catch (System.Exception x)
+            {
+                System.Console.WriteLine($"not went !: " + x);
+            }
+
+        }
     }
+
+
 }
