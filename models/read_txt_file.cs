@@ -41,6 +41,23 @@ namespace I___O_PUT_inNet.models
             }
 
         }
+
+        public static void DeleteFile()
+        {
+
+            string path = "./created";
+            File.Delete(path);
+
+            try
+            {
+                System.Console.WriteLine(string.Join(", ", File.ReadAllLines(path)));
+            }
+            catch (System.Exception ex)
+            {
+                System.Console.WriteLine("File not found :", ex);
+            }
+
+        }
     }
 
 
