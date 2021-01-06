@@ -106,7 +106,7 @@ namespace I___O_PUT_inNet.models
 
         public static void CreatDirectory()
         {
-            string pathRead = "./Files/created_2";
+            string pathRead = "./Files/created_1";
 
             if (Directory.Exists(pathRead))
             {
@@ -119,6 +119,19 @@ namespace I___O_PUT_inNet.models
         }
 
 
+
+        public static void EnumerateDirectoryInfo()
+        {
+            string pathRead = "./Files/created_1";
+            DirectoryInfo info = new DirectoryInfo(pathRead);
+
+            System.Console.WriteLine($"Does is exist? {info.Exists}");
+             
+             foreach(FileInfo file in info.EnumerateFiles()){
+                 System.Console.WriteLine($"file Name: {file.Name}");
+                 System.Console.WriteLine(string.Join(Environment.NewLine, File.ReadAllLines(file.FullName)));
+             }
+        }
     }
 
 
