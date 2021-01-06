@@ -7,7 +7,7 @@ namespace I___O_PUT_inNet
     {
         static void Main(string[] args)
         {
-           read_txt_file.Rename();
+           read_txt_file.Relocate();
         }
     }
 }

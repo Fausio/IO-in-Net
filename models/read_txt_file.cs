@@ -60,19 +60,28 @@ namespace I___O_PUT_inNet.models
         }
 
 
-        public static void copy(){
-           /*  bool overwrite = true;
-            File.Copy(path, Environment.CurrentDirectory, overwrite);
+        public static void copy()
+        {
+            /*  bool overwrite = true;
+             File.Copy(path, Environment.CurrentDirectory, overwrite);
 
-            System.Console.WriteLine($"File Exists: {File.Exists(path)}");
-            System.Console.WriteLine($"File Exists: {File.Exists("./Files/created")}"); */
+             System.Console.WriteLine($"File Exists: {File.Exists(path)}");
+             System.Console.WriteLine($"File Exists: {File.Exists("./Files/created")}"); */
         }
 
-        public static void Rename(){
+        public static void Rename()
+        {
             //renamed to create ---> renamed
             string rename = "./Files/renamed";
-             File.Move(path_ ,rename);
+            File.Move(path_, rename);
             System.Console.WriteLine($"renamed exists in files dir {File.Exists(rename)}");
+        }
+
+        public static void Relocate()
+        {
+            string rename = "./Files/renamed";
+            string RelocateTo = Environment.CurrentDirectory + "/renamed";
+            File.Move(rename,RelocateTo);
         }
     }
 
