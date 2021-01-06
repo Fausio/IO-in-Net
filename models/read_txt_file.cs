@@ -83,6 +83,18 @@ namespace I___O_PUT_inNet.models
             string RelocateTo = Environment.CurrentDirectory + "/renamed";
             File.Move(rename,RelocateTo);
         }
+
+ 
+         public static void Read()
+        {
+            string pathRead = "./renamed";
+           System.Console.WriteLine(Path.GetDirectoryName(pathRead));
+            System.Console.WriteLine(Path.HasExtension(pathRead));
+            System.Console.WriteLine(Path.GetFileName(pathRead));
+            System.Console.WriteLine(Path.IsPathFullyQualified(pathRead));
+        }
+
+        
     }
 
 
