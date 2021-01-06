@@ -16,7 +16,7 @@ namespace I___O_PUT_inNet.models
             string[] lines = File.ReadAllLines(path);         // read all lines
             System.Console.WriteLine(string.Join(Environment.NewLine, lines));
         }
-
+        public static string path_ = "./Files/created";
         private static int added = 0;
         public static void MaketxtFile()
         {
@@ -57,6 +57,22 @@ namespace I___O_PUT_inNet.models
                 System.Console.WriteLine("File not found :", ex);
             }
 
+        }
+
+
+        public static void copy(){
+           /*  bool overwrite = true;
+            File.Copy(path, Environment.CurrentDirectory, overwrite);
+
+            System.Console.WriteLine($"File Exists: {File.Exists(path)}");
+            System.Console.WriteLine($"File Exists: {File.Exists("./Files/created")}"); */
+        }
+
+        public static void Rename(){
+            //renamed to create ---> renamed
+            string rename = "./Files/renamed";
+             File.Move(path_ ,rename);
+            System.Console.WriteLine($"renamed exists in files dir {File.Exists(rename)}");
         }
     }
 
