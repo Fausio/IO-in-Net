@@ -81,20 +81,30 @@ namespace I___O_PUT_inNet.models
         {
             string rename = "./Files/renamed";
             string RelocateTo = Environment.CurrentDirectory + "/renamed";
-            File.Move(rename,RelocateTo);
+            File.Move(rename, RelocateTo);
         }
 
- 
-         public static void Read()
+
+        public static void Read()
         {
             string pathRead = "./renamed";
-           System.Console.WriteLine(Path.GetDirectoryName(pathRead));
+            System.Console.WriteLine(Path.GetDirectoryName(pathRead));
             System.Console.WriteLine(Path.HasExtension(pathRead));
             System.Console.WriteLine(Path.GetFileName(pathRead));
             System.Console.WriteLine(Path.IsPathFullyQualified(pathRead));
         }
 
-        
+        public static void CreateAndUpdatepaths()
+        {
+            string pathRead = "./renamed";
+            string modified = Path.ChangeExtension(pathRead, ".csv");
+
+            System.Console.WriteLine(Path.GetExtension(modified)); 
+            System.Console.WriteLine(Path.GetFileName(modified));
+            System.Console.WriteLine(Path.GetFileNameWithoutExtension(modified));
+        }
+
+
     }
 
 
