@@ -99,9 +99,23 @@ namespace I___O_PUT_inNet.models
             string pathRead = "./renamed";
             string modified = Path.ChangeExtension(pathRead, ".csv");
 
-            System.Console.WriteLine(Path.GetExtension(modified)); 
+            System.Console.WriteLine(Path.GetExtension(modified));
             System.Console.WriteLine(Path.GetFileName(modified));
             System.Console.WriteLine(Path.GetFileNameWithoutExtension(modified));
+        }
+
+        public static void CreatDirectory()
+        {
+            string pathRead = "./Files/created_2";
+
+            if (Directory.Exists(pathRead))
+            {
+
+                Directory.Delete(pathRead);
+                System.Console.WriteLine("Directorey deleted !");
+            }
+
+            Directory.CreateDirectory(pathRead);
         }
 
 
