@@ -1,4 +1,4 @@
-﻿using System; 
+﻿using System;
 using I___O_PUT_inNet.models;
 
 namespace I___O_PUT_inNet
@@ -7,7 +7,18 @@ namespace I___O_PUT_inNet
     {
         static void Main(string[] args)
         {
-           streaming.write();
+
+            myClass myc = new myClass();
+
+            var SomeAnonymous = new
+            {
+                Number = 123,
+                Name = "thm"
+            };
+
+            System.Console.WriteLine(SomeAnonymous);
+            System.Console.WriteLine(myc);
+
         }
     }
 }
